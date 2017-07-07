@@ -188,29 +188,24 @@ footer {
   color: white;
   top: 90%; }
 
-#dos.btn {
+.row.btn.btn-dos {
   background-color: #7fc719;
-  margin-top: -3%;
+  margin-top: -2%;
   left: 30%;
   position: absolute; }
 
-div #carousel-e.slide {
-  width: 100%;
-  height: 300px !important;
-  margin-top: -15% !important; }
-  div #carousel-e.slide .carousel-inner.dos .item img {
-    width: 100%;
-    height: 300px; }
+div #carousel-example-generic.slide {
+  height: 300px; }
 
-div #carousel-i.slide {
-  width: 100%;
-  height: 300px !important; }
-  div #carousel-i.slide .carousel-inner.tres .item img {
-    width: 100%;
-    height: 300px; }
+div #carousel.slide {
+  height: 300px; }
 
 .carousel-caption {
   background-color: rgba(234, 29, 117, 0.5); }
+
+.carousel-inner .item img {
+  width: 100%;
+  height: 300px; }
 
 .jumbotron.resultado {
   height: 300px;
@@ -253,7 +248,7 @@ h1 {
   height: auto;
   width: 250px; }
 
-#principal {
+#detalle {
   background-image: url(../assets/img/fotos-stock/screencapture.png);
   height: 1600px;
   background-repeat: no-repeat;
@@ -269,10 +264,4 @@ h1 {
 #incluye, #dura, #saber {
   display: none; }
 
-#precio_detalle {
-  font-size: 40px;
-  color: #ff661b;
-  margin: 0;
-  padding: 0; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.style.map */
